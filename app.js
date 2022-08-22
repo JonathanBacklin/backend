@@ -4,8 +4,8 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.status(200).send('i will commit genocide')
+  res.status(200).send('If status is okay this will show')
 })
 
 
-app.listen(port, console.log('fucking running'))
+app.listen(port, console.log('unlike fat people i am running'))
