@@ -4,8 +4,8 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-  res.status(200).send('If status is okay this will show')
+  res.status(200).send('working successfully')
 })
 
+app.listen(port, console.log('Listening on ' + port))
 
-app.listen(port, console.log('unlike fat people i am running'))
